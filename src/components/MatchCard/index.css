@@ -1,0 +1,80 @@
+.match-card {
+  list-style: none;
+  background-color: #0f172a;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  margin: 3px;
+  width: 150px;
+  height: 43vh;
+  padding: 15px 25px 15px 25px;
+  border-radius: 10px;
+}
+
+@media screen and (min-width: 768px) {
+  .match-card {
+    width: 200px;
+    margin-right: 10px;
+    margin: 5px;
+  }
+}
+
+.match-card-name {
+  font-size: 18px;
+  font-weight: 600;
+  font-family: 'Roboto';
+  color: #ffffff;
+  text-align: center;
+}
+@media screen and (min-width: 768px) {
+  .match-card-name {
+    font-size: 19px;
+  }
+}
+
+.match-card-result {
+  font-size: 15px;
+  font-weight: 400;
+  font-family: 'Roboto';
+  color: #ffffff;
+  text-align: center;
+}
+
+@media screen and (min-width: 768px) {
+  .match-card-result {
+    font-size: 15px;
+  }
+}
+
+.match-card-logo {
+  width: 60px;
+  height: 60px;
+}
+
+@media screen and (min-width: 768px) {
+  .match-card-logo {
+    width: 70px;
+    height: 70px;
+  }
+}
+
+.match-status {
+  font-size: 18px;
+  font-family: 'Bree Serif';
+}
+
+@media screen and (min-width: 768px) {
+  .match-status {
+    font-size: 18px;
+    font-family: 'Bree Serif';
+  }
+}
+
+.Won {
+  color: #18ed66;
+}
+
+.Lost {
+  color: #e31a1a;
+}
