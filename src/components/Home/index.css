@@ -6,6 +6,7 @@
   justify-content: center;
   align-items: center;
   font-family: Bee serif;
+  padding: 0px;
 }
 
 .logo-heading {
@@ -30,7 +31,6 @@
 
 .iplTeams-container {
   background-color: transparent;
-  max-width: 80vw;
   list-style: none;
   display: flex;
   flex-direction: row;
@@ -39,4 +39,17 @@
   flex-wrap: wrap;
   overflow: auto;
   max-height: 70vh;
+  padding: 0px;
+}
+
+@media screen and (max-width: 768px) {
+  .iplTeams-container {
+    width: 90vw;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .iplTeams-container {
+    width: 80vw;
+  }
 }

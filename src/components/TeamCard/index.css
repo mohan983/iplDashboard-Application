@@ -9,7 +9,7 @@
   flex-direction: row;
   align-items: center;
   width: 400px;
-  height: 15vh;
+  height: 100px;
 }
 
 .team-logo {
@@ -24,4 +24,10 @@
   font-size: 23px;
   font-family: Bree serif;
   text-decoration: none;
+}
+
+@media screen and (max-width: 768px) {
+  .teamCard {
+    width: 300px;
+  }
 }

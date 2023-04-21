@@ -17,7 +17,7 @@
 
 .matchCards-container {
   background-color: transparent;
-  max-width: 70vw;
+  width: 80vw;
   padding: 0px;
   list-style: none;
   display: flex;

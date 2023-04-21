@@ -7,8 +7,8 @@
   justify-content: space-between;
   margin: 3px;
   width: 150px;
-  height: 43vh;
-  padding: 15px 25px 15px 25px;
+  height: 300px;
+  padding: 15px;
   border-radius: 10px;
 }
 
@@ -22,14 +22,16 @@
 
 .match-card-name {
   font-size: 18px;
-  font-weight: 600;
+  font-weight: 500;
   font-family: 'Roboto';
   color: #ffffff;
   text-align: center;
+  margin: 0px;
+  margin-top: 10px;
 }
 @media screen and (min-width: 768px) {
   .match-card-name {
-    font-size: 19px;
+    font-size: 18px;
   }
 }
 
